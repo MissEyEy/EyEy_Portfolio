@@ -135,6 +135,11 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   visibility: visible;
 }
 
+.img {
+    border-radius: 10px; /* Adds rounded corners to the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
 .item .item-wrap:hover .work-info {
   margin-top: 0px;
   opacity: 1;
@@ -388,6 +393,9 @@ h1, h2, h3, h4, h5, h6, .font-heading {
     padding-right: 0;
     padding-left: 0;
   }
+  .img {
+        margin-top: 20px; /* Adds space above the image on smaller screens */
+    }
 }
 
 .custom-navbar .navbar-brand {
