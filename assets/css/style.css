@@ -383,7 +383,7 @@ h1, h2, h3, h4, h5, h6, .font-heading {
   width: 100%;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 250px) {
   .custom-navbar > .container {
     padding-right: 0;
     padding-left: 0;
